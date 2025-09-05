@@ -1,4 +1,4 @@
-# Análisis Crítico Blanca 
+# Análisis Crítico Blanca Ríos
 
 # ¿Qué espero contar? ¿Cuál es el impacto que espero generar?
 Me gustaría revelar cómo se ha dado a través del tiempo el acceso irregular, a raíz de una necesidad por informarse que refleja problemáticas de nuestra sociedad. Me encantaría poder generar un impacto de reflexión respecto a este tema y sus distintas aristas. Analizar este tema desde una perspectiva ética, legal y social, concluyendo proyecciones y soluciones. Mi objetivo sería aprender y traducir fácilmente sobre el tráfico de las plataformas piratas, observando las tendencias y generando posibles teorías. 
