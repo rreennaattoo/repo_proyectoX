@@ -7,7 +7,7 @@
 ## * ¿Qué temáticas predominan en las películas chilenas?
 ## * ¿Qué actores y actrices tienen mayor participación en el cine chileno reciente?
 ## * ¿Qué casas productoras predominan y cuáles han sido más exitosas en términos de reconocimiento?
-## * ¿Cómo se relacionan las productoras de cine con el nivel de participación en festivales?
+## * ¿Cómo se relacionan las productoras de cine con el nivel de participación en festivales?
 # Avance del proyecto
 ## Elaborar nuestras propias bases de datos nos permitió empezar a identificar patrones. Una primera observación fue que, cuando una mujer protagoniza una película, suele estar acompañada por otra mujer en un rol secundario. 
 ## Estas coincidencias nos han ayudado a refinar nuestras preguntas y a visualizar qué aspectos podemos comprobar con mayor solidez. Por ejemplo, ver qué tan diversificada es realmente la producción nacional, qué actores se repiten y cómo se distribuyen las productoras a lo largo del tiempo. La construcción de las bases ha reforzado nuestra hipótesis central y nos ha mostrado nuevas líneas para explorar, cómo la relación entre la duración de una cinta y su éxito en crítica o festivales.
