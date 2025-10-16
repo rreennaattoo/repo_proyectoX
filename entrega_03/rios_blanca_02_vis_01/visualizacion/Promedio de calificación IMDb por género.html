@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-89c408a4d381d0c7086e2f4cbae983d4"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "G\u00e9nero", "scale": {"scheme": "category20"}, "type": "nominal"}, "tooltip": [{"field": "G\u00e9nero", "type": "nominal"}, {"field": "Calificaci\u00f3n IMDB", "type": "quantitative"}], "x": {"field": "G\u00e9nero", "sort": "-y", "title": "G\u00e9nero", "type": "nominal"}, "y": {"field": "Calificaci\u00f3n IMDB", "title": "Promedio IMDb", "type": "quantitative"}}, "title": "Promedio de calificaci\u00f3n IMDb por g\u00e9nero", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-89c408a4d381d0c7086e2f4cbae983d4": [{"G\u00e9nero": "Acci\u00f3n", "Calificaci\u00f3n IMDB": 4.925}, {"G\u00e9nero": "Aventuras", "Calificaci\u00f3n IMDB": 5.85}, {"G\u00e9nero": "Cat\u00e1strofe", "Calificaci\u00f3n IMDB": 4.9}, {"G\u00e9nero": "Ciencia ficci\u00f3n", "Calificaci\u00f3n IMDB": 4.8}, {"G\u00e9nero": "Comedia", "Calificaci\u00f3n IMDB": 5.2875000000000005}, {"G\u00e9nero": "Crimen", "Calificaci\u00f3n IMDB": 6.12}, {"G\u00e9nero": "Deporte", "Calificaci\u00f3n IMDB": 5.8}, {"G\u00e9nero": "Dictadura", "Calificaci\u00f3n IMDB": 6.2}, {"G\u00e9nero": "Drama", "Calificaci\u00f3n IMDB": 6.214953271028038}, {"G\u00e9nero": "Familia", "Calificaci\u00f3n IMDB": 5.214285714285714}, {"G\u00e9nero": "Fantas\u00eda", "Calificaci\u00f3n IMDB": 6.2}, {"G\u00e9nero": "Historia", "Calificaci\u00f3n IMDB": 6.428571428571429}, {"G\u00e9nero": "M\u00fasica", "Calificaci\u00f3n IMDB": 6.385714285714286}, {"G\u00e9nero": "Romance", "Calificaci\u00f3n IMDB": 5.4624999999999995}, {"G\u00e9nero": "Suspenso", "Calificaci\u00f3n IMDB": 5.8}, {"G\u00e9nero": "S\u00e1tira", "Calificaci\u00f3n IMDB": 6.4}, {"G\u00e9nero": "Terror", "Calificaci\u00f3n IMDB": 5.341379310344828}, {"G\u00e9nero": "Tragedia", "Calificaci\u00f3n IMDB": 6.9}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
