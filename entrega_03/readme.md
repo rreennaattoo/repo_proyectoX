@@ -22,5 +22,10 @@
 ## El mapa de festivales de cine alrededor del mundo evidencia la presencia de Chile tanto dentro como fuera del país. Se muestra una red amplia de exhibiciones en Europa, América y Asia y que exhibe el panorama global de estos certámenes. 
 ## En conjunto, estos hallazgos refuerzan la hipótesis principal sobre la variedad del cine chileno y su complejidad como contraparte a los estereotipos conocidos. 
 
-# Síntesis de la Historia 
+# Síntesis de la historia 
+
 ## La narrativa de nuestro proyecto propone una mirada más informada y menos intuitiva sobre el cine chileno, apoyada en evidencia visual y cuantitativa en base a las bases de datos respectivas. En ellas, las visualizaciones sobre los roles y género del reparto, además de las puntuaciones y la ruta festivalera de cada película, funcionan como piezas complementarias de una misma historia: la de una cinematografía en expansión que busca ser visibilizada. 
+
+### probando texto
+#### probando otro texto 
+##### y otro
