@@ -1,0 +1,6 @@
+# Documentación 
+## Descripción lectura visual 
+### El documento se lee en orden fácilmente, dado que tiene un título notorio que explica la sección. Cuenta con 4 visualizaciones, las cuales van acompañas de un breve texto que identifica el hallazgo principal. Se pueden relacionar los textos con los gráficos porque están en la misma altura. Los 3 primeros gráficos cuentan con 3 géneros principales del cine, con sus respectivas líneas de tiempo por década. Es decir, se analiza el recorrido del género a través de los años y sus cambios. En cambio, el último compara todos los géneros identificados y la cantidad de veces que se han utilizado.  
+
+## Elementos visuales, los datos y prosa
+### Los elementos visuales ayudan a seguir la línea editorial del reportaje. Utilizando la misma paleta de colores tanto en el afiche, como en las barras del gráfico. La tipografía se asemeja al estilo del webstory y del cine, siendo parecida a una máquina de escribir la cual entrega un estilo que hasta el día de hoy se utiliza en los guiones de películas. Los datos ayudan a evaluar tanto el recorrido como la cantidad de veces que se ha utilizado una temática. Esta información sirve para entender qué géneros abundan en el cine chileno y cómo se han ido desarrollando. 
