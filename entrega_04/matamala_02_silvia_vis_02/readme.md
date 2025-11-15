@@ -1,0 +1,6 @@
+# Documentación 
+## Descripción lectura visual 
+### El afiche tiene como título “Coordenadas cinematográficas”. En la visualización se busca graficar la huella global del cine chileno y su objetivo es mostrar que, aunque Chile es el lugar de estreno más importante para su propio cine, existe una red de distribución internacional. El diseño de la pieza desde el título y luego el primer párrafo con parte del contexto de la crónica. El mapa del mundo es el foco central: los lugares de estreno se marcan con el color principal del libro de identidad visual para que resalten. Chile es el punto más grande para confirmar la idea de que es el centro de origen. El resto del texto continúa más abajo, acompañados de imágenes relacionadas al tema. Así la vista del lector está en forma de “Z”, que agiliza su lectura. 
+
+## Elementos visuales, los datos y prosa
+### El diseño y el contenido trabajan para que el lenguaje sea claro. Se usó la identidad visual al respetar la paleta de colores y las tipografías definidas para que sea cohesivo con el resto de la webstory. El mapa no solo dice que las películas se estrenan en Chile y en el extranjero, sino que lo muestra como una prueba física. La diferenciación de color y tamaño en el punto chileno potencia la tesis de que somos el centro, mientras que la dispersión de puntos internacionales clarifica la expansión global.
