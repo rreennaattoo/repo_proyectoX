@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-ad89482700a1e3b29038183a6bf12040"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "director", "legend": null, "scale": {"range": ["#5A0F05", "#241D14", "#41402A"]}, "type": "nominal"}, "tooltip": [{"field": "director", "type": "nominal"}, {"field": "numero_peliculas", "type": "quantitative"}], "x": {"field": "numero_peliculas", "title": "Number of Movies", "type": "quantitative"}, "y": {"field": "director", "sort": "-x", "title": "Director", "type": "nominal"}}, "title": "Top 20 Directors by Number of Movies", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-ad89482700a1e3b29038183a6bf12040": [{"director": "Jos\u00e9 Bohr", "numero_peliculas": 16}, {"director": "Cristi\u00e1n S\u00e1nchez G.", "numero_peliculas": 16}, {"director": "Antonio de Santos", "numero_peliculas": 16}, {"director": "Alberto Santana", "numero_peliculas": 15}, {"director": "Ra\u00fal Ruiz", "numero_peliculas": 15}, {"director": "Patricio Valladares", "numero_peliculas": 12}, {"director": "Jos\u00e9 Luis Torres Leiva", "numero_peliculas": 12}, {"director": "Hermann Mondaca", "numero_peliculas": 12}, {"director": "Pablo Larra\u00edn", "numero_peliculas": 12}, {"director": "Nicol\u00e1s L\u00f3pez", "numero_peliculas": 11}, {"director": "Patricio Guzm\u00e1n", "numero_peliculas": 11}, {"director": "Jorge D\u00e9lano \u00abCoke\u00bb", "numero_peliculas": 11}, {"director": "Ignacio Ag\u00fcero", "numero_peliculas": 10}, {"director": "Gonzalo Justiniano", "numero_peliculas": 10}, {"director": "Eugenio de Liguoro", "numero_peliculas": 10}, {"director": "Ernesto D\u00edaz Espinoza", "numero_peliculas": 9}, {"director": "Luis R. Vera", "numero_peliculas": 9}, {"director": "Miguel Littin", "numero_peliculas": 9}, {"director": "Bettina Perut", "numero_peliculas": 9}, {"director": "Renato Dennis", "numero_peliculas": 8}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
