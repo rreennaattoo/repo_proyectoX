@@ -19,7 +19,7 @@
 | Gráfico 5 y su texto |  |  | X |
 | Gráfico 6 y su texto |  | X |  |
 | Gráfico 7 y su texto |  | X |  |
-| Countdown inicial |  |  | X |
+| Countdown inicial | X | X | X |
 | Directores hombres visualización | X | X | X |
-| Ticket |  |  | X |
+| Ticket | X  | X | X |
 
